@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactory9559"
+		},
+		"AzureDataLakeStorage9559_accountKey": {
+			"value": ""
+		},
+		"AzureSynapseAnalytics9559_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage9559_properties_typeProperties_url": {
+			"value": "https://datalake9559.dfs.core.windows.net/"
+		},
+		"AzureSynapseAnalytics9559_properties_typeProperties_server": {
+			"value": "synapseworkspace9559.sql.azuresynapse.net"
+		},
+		"AzureSynapseAnalytics9559_properties_typeProperties_database": {
+			"value": "datapool"
+		},
+		"AzureSynapseAnalytics9559_properties_typeProperties_userName": {
+			"value": "sqladminuser"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
