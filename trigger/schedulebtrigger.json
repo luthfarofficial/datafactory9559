@@ -1,0 +1,24 @@
+{
+	"name": "schedulebtrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline-csv-pool",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 5,
+				"startTime": "2025-01-03T19:43:00",
+				"timeZone": "GMT Standard Time"
+			}
+		}
+	}
+}
